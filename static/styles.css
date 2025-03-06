@@ -1,0 +1,109 @@
+/* === General Styles === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1e293b; /* Fondo oscuro elegante */
+  color: #f8fafc; /* Texto claro para contraste */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* === Header === */
+h1 {
+  font-size: 3rem;
+  color: #38bdf8; /* Azul vibrante */
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.3rem;
+  margin: 15px 0;
+  color: #e2e8f0; /* Gris claro */
+}
+
+/* === Buttons === */
+button {
+  background-color: #f43f5e; /* Rojo brillante */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #e11d48; /* Rojo más oscuro */
+  transform: translateY(-3px); /* Efecto "levantar" al pasar el mouse */
+}
+
+button:active {
+  transform: translateY(0); /* Volver al estado normal al hacer clic */
+}
+
+/* === Links === */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* === Form === */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 2px solid #94a3b8;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  background-color: #334155;
+  color: #f8fafc;
+}
+
+input[type="text"]:focus {
+  border-color: #38bdf8;
+  outline: none;
+  background-color: #1e293b;
+}
+
+/* === Containers === */
+div {
+  text-align: center;
+  padding: 20px;
+}
+
+div.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* === Trivia Box === */
+.trivia-box {
+  background-color: #0f172a;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+  margin: 20px auto;
+  color: #f8fafc;
+}
