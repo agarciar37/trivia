@@ -1,10 +1,9 @@
-/* === General Styles === */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #1e293b; /* Fondo oscuro elegante */
-  color: #f8fafc; /* Texto claro para contraste */
+  background-color: #1e293b;
+  color: #f8fafc;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,10 +11,9 @@ body {
   height: 100vh;
 }
 
-/* === Header === */
 h1 {
   font-size: 3rem;
-  color: #38bdf8; /* Azul vibrante */
+  color: #38bdf8;
   text-align: center;
   margin: 20px 0;
 }
@@ -23,12 +21,11 @@ h1 {
 p {
   font-size: 1.3rem;
   margin: 15px 0;
-  color: #e2e8f0; /* Gris claro */
+  color: #e2e8f0;
 }
 
-/* === Buttons === */
 button {
-  background-color: #f43f5e; /* Rojo brillante */
+  background-color: #f43f5e;
   color: white;
   border: none;
   padding: 12px 25px;
@@ -40,21 +37,19 @@ button {
 }
 
 button:hover {
-  background-color: #e11d48; /* Rojo más oscuro */
-  transform: translateY(-3px); /* Efecto "levantar" al pasar el mouse */
+  background-color: #e11d48;
+  transform: translateY(-3px);
 }
 
 button:active {
-  transform: translateY(0); /* Volver al estado normal al hacer clic */
+  transform: translateY(0); 
 }
 
-/* === Links === */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* === Form === */
 form {
   display: flex;
   flex-direction: column;
@@ -81,7 +76,6 @@ input[type="text"]:focus {
   background-color: #1e293b;
 }
 
-/* === Containers === */
 div {
   text-align: center;
   padding: 20px;
@@ -95,7 +89,6 @@ div.centered {
   height: 100%;
 }
 
-/* === Trivia Box === */
 .trivia-box {
   background-color: #0f172a;
   border-radius: 15px;
